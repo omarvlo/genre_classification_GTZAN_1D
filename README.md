@@ -74,8 +74,8 @@ Accuracy final: 0.8363636363636363
 ---
 
 ## 📜 References and Resources
-- 📄 Enhancing Music Genre Classification Using Tonnetz and Active Learning (2024) (https://marsyas.info/download/data_sets/)
-- 📁 **GTZAN Dataset**: [GTZAN Dataset](https://marsyas.info/download/data_sets/)
+- 📄 Enhancing Music Genre Classification Using Tonnetz and Active Learning (2024) (https://www.rcs.cic.ipn.mx/2024_153_11/Enhancing%20Music%20Genre%20Classification%20Using%20Tonnetz%20and%20Active%20Learning.pdf)
+- 📁 **GTZAN Dataset**: [GTZAN Dataset](https://huggingface.co/datasets/marsyas/gtzan)
 - 📚 **Libraries Used**:
   - [`librosa`](https://librosa.org/) → Audio feature extraction.
   - [`scikit-learn`](https://scikit-learn.org/) → Machine Learning models.
