@@ -5,7 +5,7 @@
 Este repositorio implementa **clasificación de géneros musicales** usando **Support Vector Machines (SVM)**, comparando un enfoque **clásico** contra una estrategia con **Aprendizaje Activo**.  
 Las características de audio se extraen utilizando **MFCC, Chroma, características espectrales y Tonnetz** a partir del **dataset GTZAN**.
 
-> 🧠 Este proyecto está basado en el artículo:  
+> Este proyecto está basado en el artículo:  
 > *Enhancing Music Genre Classification Using Tonnetz and Active Learning (2024)*
 
 ---
