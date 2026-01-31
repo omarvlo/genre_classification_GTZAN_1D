@@ -111,7 +111,7 @@ Tonnetz (Red Armónica)
 
 Estas características capturan tanto el timbre como la estructura armónica de la música.
 
-## 📜 Referencias y Recursos
+## Referencias y Recursos
 
 📄 Artículo de referencia
 Enhancing Music Genre Classification Using Tonnetz and Active Learning (2024)
