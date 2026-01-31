@@ -10,7 +10,7 @@ Las características de audio se extraen utilizando **MFCC, Chroma, característ
 
 ---
 
-## 🚀 Pruébalo al instante en Google Colab (sin instalar nada)
+## Pruébalo al instante en Google Colab (sin instalar nada)
 
 Puedes ejecutar **todo el pipeline** directamente en Google Colab sin instalar dependencias en tu máquina.
 
@@ -40,7 +40,7 @@ Ideal para **reproducir los resultados rápidamente**.
 
 ---
 
-## 📥 Instalación y Uso Local
+##  Instalación y Uso Local
 
 ### 1️⃣ Instalar dependencias
 
@@ -48,28 +48,34 @@ Asegúrate de tener Python 3.9+ instalado.
 
 ```bash
 pip install numpy pandas scikit-learn librosa tqdm requests
+```
 
 2️⃣ Extraer características de audio
-python genre_classification_features_1D.py
 
+```bash
+python genre_classification_features_1D.py
+```
 
 Esto genera el archivo:
-
+```bash
 audio_features_1D.csv
-
-
+```
 con las características extraídas del dataset GTZAN.
 
 3️⃣ Entrenar los modelos
 🔹 SVM con Aprendizaje Activo
-python genre_classification_active_SVM_1D.py
 
+```bash
+python genre_classification_active_SVM_1D.py
+```
 
 Este modelo selecciona iterativamente las muestras más inciertas para mejorar el entrenamiento.
 
 🔹 SVM Clásico
-python genre_classification_classic_SVM_1D.py
 
+```bash
+python genre_classification_classic_SVM_1D.py
+```
 
 Entrena un SVM tradicional sin aprendizaje activo.
 
@@ -78,7 +84,7 @@ Entrena un SVM tradicional sin aprendizaje activo.
 Ambos scripts generan reportes de clasificación y métricas de accuracy.
 
 Ejemplo de salida del SVM con Aprendizaje Activo:
-
+```bash
 Resultados finales del modelo SVM con aprendizaje activo (Optimizado):
 
               precision    recall  f1-score   support
@@ -94,17 +100,13 @@ Resultados finales del modelo SVM con aprendizaje activo (Optimizado):
         rock       0.78      0.55      0.64        33
 
 Accuracy final: 0.8363
-
+```
 🎼 Características de Audio Utilizadas
 
 MFCC (Mel Frequency Cepstral Coefficients)
-
 Chroma Features
-
 Spectral Contrast
-
 Zero Crossing Rate
-
 Tonnetz (Red Armónica)
 
 Estas características capturan tanto el timbre como la estructura armónica de la música.
@@ -121,15 +123,10 @@ GTZAN Dataset:
 https://huggingface.co/datasets/marsyas/gtzan
 
 📚 Librerías utilizadas
-
 librosa → Extracción de características de audio
-
 scikit-learn → Modelos de Machine Learning
-
 numpy → Operaciones numéricas
-
 pandas → Manejo de datos
-
 tqdm → Barras de progreso
 
 🤝 Contribuciones
@@ -137,9 +134,6 @@ tqdm → Barras de progreso
 ¡Las contribuciones son bienvenidas!
 Puedes hacer fork del repositorio y enviar un pull request.
 
-📌 Contacto
+Contacto: Para dudas o sugerencias, abre un issue en GitHub.
 
-Para dudas o sugerencias, abre un issue en GitHub.
-
-🚀 ¡Gracias por visitar este repositorio! 🎶🔥
-EOF
+¡Gracias por visitar este repositorio! 🎶🔥
