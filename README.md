@@ -113,22 +113,23 @@ Estas características capturan tanto el timbre como la estructura armónica de 
 
 📜 Referencias y Recursos
 📄 Artículo de referencia
-
+```bash
 Enhancing Music Genre Classification Using Tonnetz and Active Learning (2024)
 https://www.rcs.cic.ipn.mx/2024_153_11/Enhancing%20Music%20Genre%20Classification%20Using%20Tonnetz%20and%20Active%20Learning.pdf
-
+```
 📁 Dataset
-
+```bash
 GTZAN Dataset:
 https://huggingface.co/datasets/marsyas/gtzan
-
+```
 📚 Librerías utilizadas
+```bash
 librosa → Extracción de características de audio
 scikit-learn → Modelos de Machine Learning
 numpy → Operaciones numéricas
 pandas → Manejo de datos
 tqdm → Barras de progreso
-
+```
 🤝 Contribuciones
 
 ¡Las contribuciones son bienvenidas!
