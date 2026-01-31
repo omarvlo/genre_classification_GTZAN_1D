@@ -120,14 +120,6 @@ https://www.rcs.cic.ipn.mx/2024_153_11/Enhancing%20Music%20Genre%20Classificatio
 📁 GTZAN Dataset:
 https://huggingface.co/datasets/marsyas/gtzan
 
-📚 Librerías utilizadas
-
-librosa → Extracción de características de audio
-scikit-learn → Modelos de Machine Learning
-numpy → Operaciones numéricas
-pandas → Manejo de datos
-tqdm → Barras de progreso
-
 ## 🤝 Contribuciones
 
 ¡Las contribuciones son bienvenidas!
