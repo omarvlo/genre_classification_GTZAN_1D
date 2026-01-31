@@ -1,7 +1,3 @@
-Copia todo este bloque y pégalo en tu terminal dentro del repo.
-Te crea/reescribe automáticamente el README.md en español.
-
-cat << 'EOF' > README.md
 # 🎵 Clasificación de Géneros Musicales con SVM Activo y Tonnetz 🎶
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18q8wi934kTNgaxbL-d3UNAWY79lbKryh?usp=sharing)
